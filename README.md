@@ -113,28 +113,29 @@ Les tickets peuvent être associés à plusieurs catégories.
 ## 5. Endpoints principaux
 
 ### Utilisateurs
-POST /api/users
-GET /api/users/{id}
-GET /api/users?role=AGENT
+- POST /api/users
+- GET /api/users/{id}
+- GET /api/users?role=AGENT
 ### Tickets
-POST /api/tickets
-GET /api/tickets
-GET /api/tickets/{id}
-PATCH /api/tickets/{id}/assign
-PATCH /api/tickets/{id}/status
+- POST /api/tickets
+- GET /api/tickets
+- GET /api/tickets/{id}
+- PATCH /api/tickets/{id}/assign
+- PATCH /api/tickets/{id}/status
 ### Commentaires
-POST /api/tickets/{id}/comments
+- POST /api/tickets/{id}/comments
 ### Tags
-POST /api/tags
-POST /api/tickets/{ticketId}/tags/{tagId}
+- POST /api/tags
+- POST /api/tickets/{ticketId}/tags/{tagId}
 ### Statistiques
-GET /api/stats/tickets-by-status
-GET /api/stats/tickets-by-agent
-GET /api/stats/average-resolution-time
-GET /api/stats/out-of-sla
+- GET /api/stats/tickets-by-status
+- GET /api/stats/tickets-by-agent
+- GET /api/stats/average-resolution-time
+- GET /api/stats/out-of-sla
 
 ---
 
 ## Diagramme de classes
-Le diagramme de classes se trouve dans le dossier `docs/` :
+Le diagramme de classes est le suivant :
 ![alt text](image.png)
+
